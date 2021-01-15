@@ -1,0 +1,26 @@
+@keyframes bganime {
+  0% {
+    background: linear-gradient(35deg, red, blue);
+  }
+  25% {
+    background: linear-gradient(35deg, yellow, green);
+  }
+  50% {
+    background: linear-gradient(35deg, pink, purple);
+  }
+  75% {
+    background: linear-gradient(35deg, aqua, maroon);
+  }
+  100% {
+    color: linearGradient(1, 4);
+  }
+}
+body {
+  animation: bganime infinite 10s;
+  text-align: center;
+  font-size: 20px;
+  height: 562px;
+}
+canvas {
+  border: 20px solid black;
+}
